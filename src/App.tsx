@@ -1,10 +1,10 @@
 import "./style.css";
-import Map from "./components/map/Map";
-import Form from "./components/form/Form";
+import Map from "./components/Map";
+import Form from "./components/Form";
 import { useAppDispatch } from "./redux/hooks";
 import { fetchShapes } from "./redux/shapesSlice";
 import { useEffect } from "react";
-import ShapeList from "./components/shapes/ShapeList";
+import ShapeList from "./components/ShapeList";
 
 function App() {
   const dispatch = useAppDispatch();

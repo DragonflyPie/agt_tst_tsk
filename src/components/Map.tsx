@@ -1,7 +1,7 @@
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { useEffect, useRef } from "react";
-import { useAppSelector } from "../../redux/hooks";
+import { useAppSelector } from "../redux/hooks";
 
 const Map = () => {
   const shapes = useAppSelector((state) => state.shapes.data);

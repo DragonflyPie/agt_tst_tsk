@@ -1,6 +1,6 @@
 import { Button, ListItem } from "@mui/material";
-import { useAppDispatch } from "../../redux/hooks";
-import { deleteShape } from "../../redux/shapesSlice";
+import { useAppDispatch } from "../redux/hooks";
+import { deleteShape } from "../redux/shapesSlice";
 
 interface ItemProps {
   id: number;

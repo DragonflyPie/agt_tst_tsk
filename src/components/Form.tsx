@@ -1,7 +1,7 @@
 import { Box, Button, TextField } from "@mui/material";
 import { useForm, SubmitHandler, Controller } from "react-hook-form";
-import { useAppDispatch, useAppSelector } from "../../redux/hooks";
-import { LatLngTuple, addShape, selectLastId } from "../../redux/shapesSlice";
+import { useAppDispatch, useAppSelector } from "../redux/hooks";
+import { LatLngTuple, addShape, selectLastId } from "../redux/shapesSlice";
 import { useEffect } from "react";
 
 interface FormData {
