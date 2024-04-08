@@ -1,7 +1,7 @@
 import { Box, List, Typography } from "@mui/material";
 import { useAppSelector } from "../redux/hooks";
 import ShapeItem from "./ShapeItem";
-import Popup from "../common/Popup";
+import Popup from "./Popup";
 
 const ShapeList = () => {
   const state = useAppSelector((state) => state.shapes);
